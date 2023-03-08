@@ -1,0 +1,42 @@
+.footer_section{
+  background-color: var(--green);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 5rem 1.5rem;
+  justify-content: left;
+}
+
+.container img{
+  height: 1.9rem;
+}
+
+.container ul li a{
+  display: flex;
+  color: var(--gray_300);
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.container ul {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 820px) {
+  .container{
+    max-width: 120rem;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container ul{
+    display: flex;
+    gap: 3.2rem;
+  }
+}
