@@ -1,7 +1,7 @@
-import { Header } from './Components/Header';
-import { Hero } from './Components/Hero';
-import { About } from './Components/About';
-import { Portfolio } from './Components/Portfolio';
+import { Header } from './components/Header';
+import { Hero } from './components/Hero';
+import { About } from './components/About';
+import { Portfolio } from './components/Portfolio';
 
 import './global.css'
 import styles from './App.module.css'
