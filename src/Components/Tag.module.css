@@ -1,0 +1,13 @@
+.tag_1{
+  color: var(--blue_200);
+  border: 1px solid var(--orange_100);
+  padding: 0.8rem 1.6rem;
+  border-radius: 1rem;
+}
+
+.tag_2{
+  color: var(--blue_200);
+  border: 1px solid var(--blue_100);
+  padding: 0.8rem 1.6rem;
+  border-radius: 1rem;
+}

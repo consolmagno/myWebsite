@@ -1,0 +1,37 @@
+.header{
+  background-color: var(--white_100);
+  height: 7.2rem;
+  padding: 2.6rem 1.5rem;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+nav img{
+  height: 1.2rem;
+}
+
+nav ul{
+  display: flex;
+  gap: 1.6rem;
+}
+
+nav ul li a{
+  color: var(--gray_200);
+}
+
+@media (min-width: 820px) {
+  nav img{
+    height: 1.5rem;
+  }
+
+  nav ul{
+    display: flex;
+    gap: 3.2rem;
+  }
+}
