@@ -8,7 +8,7 @@ export function Header(){
       <nav>
         <img src={logo} alt="Logomarca: variação da paleta de cores em formato circular" />
         <ul>
-          <li><Link to="#hero" smooth className={styles.active}>Início</Link></li>
+          <li><Link to="#hero" smooth >Início</Link></li>
           <li><Link to="#about" smooth>Sobre</Link></li>
           <li><Link to="#portfolio"smooth>Portfólio</Link></li>
           <li><Link to="#contact" smooth>Contato</Link></li>
