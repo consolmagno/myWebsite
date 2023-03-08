@@ -4,7 +4,7 @@ import websiteGaya from "../assets/website_gaya.png"
 import websiteInodonto from "../assets/website_inodonto.png"
 import websiteDoginc from "../assets/website_doginc.png"
 import ivPri from "../assets/iv_pri.png"
-// import websiteReceita from "../assets/website_receita.png"
+import websiteReceita from "../assets/website_receita.png"
 import websiteRoadmap from "../assets/website_roadmap.png"
 
 export function Portfolio(){
