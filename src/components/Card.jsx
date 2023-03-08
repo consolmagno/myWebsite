@@ -1,13 +1,6 @@
 import styles from './Card.module.css'
 import { Tag } from './Tag'
 import {Button} from './Button'
-import website_gaya from "../assets/website_gaya.png"
-import website_inodonto from "../assets/website_inodonto.png"
-import website_doginc from "../assets/website_doginc.png"
-import iv_pri from "../assets/iv_pri.png"
-import website_receita from "../assets/website_receita.png"
-import website_roadmap from "../assets/website_roadmap.png"
-
 
 
 export function Card({title, image, tag_title, tag_title_2, btn_link}){
