@@ -5,16 +5,19 @@ import { Portfolio } from './components/Portfolio';
 import { Footer } from './components/Footer';
 
 import './global.css'
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return(
-    <div>
-      <Header/>
-      <Hero/>
-      <About/>
-      <Portfolio/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <div>
+        <Header/>
+        <Hero/>
+        <About/>
+        <Portfolio/>
+        <Footer/>
+      </div>
+    </BrowserRouter>
     
   )
 

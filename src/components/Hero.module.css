@@ -1,3 +1,7 @@
+.hero_section{
+  padding: 7.2rem 0;
+}
+
 .hero_section img{
   width: 100%;
   object-fit: cover;

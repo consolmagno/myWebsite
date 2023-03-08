@@ -6,7 +6,7 @@ import styles from "./Footer.module.css"
 
 export function Footer(){
   return(
-    <div className={styles.footer_section}>
+    <div className={styles.footer_section} id="contact">
       <div className={styles.container}>
         <img src={logo} alt="Logotipo"/>
         <ul>

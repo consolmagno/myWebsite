@@ -2,6 +2,12 @@
   background-color: var(--white_100);
   height: 7.2rem;
   padding: 2.6rem 1.5rem;
+  border-bottom: 0.2rem solid var(--gray_50);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
 }
 
 nav{
@@ -24,6 +30,17 @@ nav ul{
 nav ul li a{
   color: var(--gray_200);
 }
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: var(--orange_200);
+  font-weight: bold;
+  -webkit-font-smoothing: auto;
+  border-bottom: 0.4rem solid var(--orange_200);
+  padding-bottom: 2.1rem;
+  transition: color 0.2s;
+}
+
 
 @media (min-width: 820px) {
   nav img{

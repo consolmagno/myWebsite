@@ -3,7 +3,7 @@ import hero_ilustration from '../assets/hero_image.png'
 
 export function Hero(){
   return(
-    <section className={styles.hero_section}>
+    <section className={styles.hero_section} id='hero'>
       <img src={hero_ilustration} alt="Ilustração da vida academica e profissional da autora" />
       <div className={styles.text_area_hero}>
         <h2>

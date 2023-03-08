@@ -4,7 +4,7 @@ import about_image from '../assets/about_image.png'
 
 export function About(){
   return(
-    <section className={styles.section_about}>
+    <section className={styles.section_about} id="about">
       <img src={about_image} alt="" />
       <div className={styles.text_area}>
         <h2>Um pouco mais sobre mim</h2>
